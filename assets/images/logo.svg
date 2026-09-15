@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Placeholder Wings mark: grounded body, earned span. Replace with brand logomark. -->
+  <rect width="64" height="64" rx="16" fill="#111513"/>
+  <path d="M32 38c-8-2-16-10-20-20 8 4 14 8 20 16 6-8 12-12 20-16-4 10-12 18-20 20z" fill="#C8E38A"/>
+  <circle cx="32" cy="42" r="3" fill="#9BB8C9"/>
+</svg>

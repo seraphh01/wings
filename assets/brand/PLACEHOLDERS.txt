@@ -1,0 +1,25 @@
+Wings brand assets still needed
+================================
+
+These files in the repo are temporary stand-ins until real brand work lands.
+
+Fonts (currently bundled, SIL Open Font License)
+- assets/fonts/Sora-VariableFont_wght.ttf — display / headlines
+- assets/fonts/Figtree-VariableFont_wght.ttf — UI / body
+
+Replace when a custom type pairing is chosen. Keep variable or static files
+bundled in the app (do not rely on runtime Google Fonts fetches — parks and
+gyms have poor connectivity).
+
+Images
+- assets/images/logo.svg — geometric mark placeholder
+- The in-app WingsMark painter is the current launcher-style mark
+
+Still to supply
+- Primary logomark (light and dark)
+- App icon / adaptive icon (Android) and iOS AppIcon set
+- Optional wordmark
+- Launch/splash background aligned with theme ink (#111513)
+- Any photography for onboarding (athletes, not stock gym cliché)
+
+Do not commit secrets. Keep SUPABASE_URL and keys in .env only.
