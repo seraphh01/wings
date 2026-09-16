@@ -23,6 +23,19 @@ flutter run -d chrome
 
 `flutter analyze` should stay clean.
 
+## GitHub Pages deployment
+
+The app deploys automatically to GitHub Pages when changes are pushed to
+`main`. In **Settings → Pages**, select **GitHub Actions** as the build and
+deployment source. Then add these repository variables in
+**Settings → Secrets and variables → Actions → Variables**:
+
+- `SUPABASE_URL`
+- `SUPABASE_PUBLISHABLE_KEY`
+
+These are browser-visible values required to initialize the Flutter client;
+do not add Supabase service-role or other private keys.
+
 ## What this draft is
 
 The app boots Flutter, loads `.env`, initializes Supabase, then shows a navigable mock of the five core destinations from the architecture decision record:
